@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
+    var pictures = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,9 +22,11 @@ class ViewController: UIViewController {
         for item in items {
             if item.hasPrefix("nssl") {
                 // this is a picture that needs to be loaded
+                pictures.append(item)
             }
         }
         
+        print(pictures)
     }
 
 
