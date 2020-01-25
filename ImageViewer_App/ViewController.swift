@@ -15,7 +15,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Aplicatie de testare"
+        title = "Lista localuri in Chisinau"
         navigationController?.navigationBar.prefersLargeTitles = true 
         
         let fm = FileManager.default
@@ -23,8 +23,7 @@ class ViewController: UITableViewController {
         let items = try! fm.contentsOfDirectory(atPath: path)
         
         for item in items {
-            if item.hasPrefix("nssl") {
-                // this is a picture that needs to be loaded
+            if item.hasPrefix("RAN_") {
                 pictures.append(item)
             }
         }
