@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE52F6C423DC72AF001E6348 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52F6C323DC72AE001E6348 /* DetailViewController.swift */; };
 		EEF7E06323D78D940012AB7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7E06223D78D940012AB7A /* AppDelegate.swift */; };
 		EEF7E06523D78D940012AB7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7E06423D78D940012AB7A /* SceneDelegate.swift */; };
 		EEF7E06723D78D940012AB7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF7E06623D78D940012AB7A /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE52F6C323DC72AE001E6348 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EEF7E05F23D78D940012AB7A /* ImageViewer_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageViewer_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF7E06223D78D940012AB7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEF7E06423D78D940012AB7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				EEF7E06223D78D940012AB7A /* AppDelegate.swift */,
 				EEF7E06423D78D940012AB7A /* SceneDelegate.swift */,
 				EEF7E06623D78D940012AB7A /* ViewController.swift */,
+				EE52F6C323DC72AE001E6348 /* DetailViewController.swift */,
 				EEF7E06823D78D940012AB7A /* Main.storyboard */,
 				EEF7E06B23D78D9C0012AB7A /* Assets.xcassets */,
 				EEF7E06D23D78D9C0012AB7A /* LaunchScreen.storyboard */,
@@ -189,6 +192,7 @@
 				EEF7E06723D78D940012AB7A /* ViewController.swift in Sources */,
 				EEF7E06323D78D940012AB7A /* AppDelegate.swift in Sources */,
 				EEF7E06523D78D940012AB7A /* SceneDelegate.swift in Sources */,
+				EE52F6C423DC72AF001E6348 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
