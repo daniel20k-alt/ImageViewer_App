@@ -15,7 +15,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Lista localuri in Chisinau"
+        title = "Lista de localuri in Chisinau"
         navigationController?.navigationBar.prefersLargeTitles = true 
         
         let fm = FileManager.default
@@ -30,6 +30,7 @@ class ViewController: UITableViewController {
         
         print(pictures)
     }
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
