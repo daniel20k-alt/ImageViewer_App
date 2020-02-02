@@ -18,6 +18,7 @@ class DetailViewController: UIViewController {
         title = selectedImage
         navigationItem.largeTitleDisplayMode = .never
         
+// adding the "share" button
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         
         if let imageToLoad = selectedImage {
@@ -26,7 +27,7 @@ class DetailViewController: UIViewController {
         }
     }
     
-
+// function for when the icons will dissapear from the screen once the screen is tapped
     override func viewWillDisappear(_ animated: Bool) {
           super.viewWillDisappear(animated)
           navigationController?.hidesBarsOnTap = false
@@ -37,6 +38,8 @@ class DetailViewController: UIViewController {
         navigationController?.hidesBarsOnTap = true
     }
 
+    
+// function for when the barButtonItem is tapped
     @objc func shareTapped() {
         
         guard let image = imageView.image?.jpegData(compressionQuality: 0.8)
